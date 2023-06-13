@@ -1,0 +1,39 @@
+name: iotflutterfixparah
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  firebase_core: ^2.13.0
+  firebase_database: ^10.2.1
+  cloud_firestore: ^4.8.0
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.62.0
+  d_chart: ^2.2.11
+  numberpicker: ^2.1.2
+  intl: ^0.18.1
+  
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: lib/fonts/Gilroy-Light.otf
+        - asset: lib/fonts/Gilroy-ExtraBold.otf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: lib/fonts/Inter-Regular.otf
+        - asset: lib/fonts/Inter-Bold.otf
+          weight: 700
+
+  uses-material-design: true
